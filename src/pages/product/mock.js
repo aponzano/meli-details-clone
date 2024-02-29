@@ -1,4 +1,4 @@
-export default {
+export const product = {
   id: "MLA1641121748",
   site_id: "MLA",
   title: "Esferas Del Dragón Caja De 7 Esferas De Dragon Ball Z ",

@@ -7,7 +7,7 @@ export const App = () => {
   return (
     <>
       <Header />
-      <main className="bg-green-200">
+      <main>
         <Outlet />
       </main>
 
