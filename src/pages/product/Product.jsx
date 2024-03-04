@@ -1,14 +1,14 @@
-import {ProductBreadcrumbs} from "./ProductBreadcrumbs";
-import {ProductDetails} from "./ProductDetails";
-import {ProductRecommendations} from "./ProductRecommendations";
+import {Breadcrumbs} from "./components/Breadcrumbs";
+import {Details} from "./components/Details";
+import {Recommendations} from "./components/Recommendations";
 export const Product = () => {
   return (
     <div className="mx-auto max-w-6xl">
-      <ProductBreadcrumbs />
+      <Breadcrumbs />
 
-      <ProductDetails />
+      <Details />
 
-      <ProductRecommendations />
+      <Recommendations />
     </div>
   );
 };
