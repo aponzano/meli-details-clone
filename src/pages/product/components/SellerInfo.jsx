@@ -1,6 +1,6 @@
 export const SellerInfo = () => {
   return (
-    <div className="border w-full rounded-lg pt-8 pb-6 px-4 space-y-6" id="vendedor">
+    <div className="border w-full rounded-lg pt-8 pb-6 px-4 space-y-6">
       <h2 className="text-lg">Información sobre el vendedor</h2>
       <div>
         <div className="flex mb-5">

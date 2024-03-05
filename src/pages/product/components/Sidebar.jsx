@@ -7,15 +7,15 @@ const Stock = () => {
 };
 const Quantity = () => {
   return (
-    <div className="mb-3 h-12 leading-[48px] cursor-pointer" id="quantity">
+    <div className="mb-3 h-12 leading-[48px] cursor-pointer">
       Cantidad:
-      <select id="" name="">
-        <option value="">1 unidad</option>
-        <option value="">2 unidades</option>
-        <option value="">3 unidades</option>
-        <option value="">4 unidades</option>
-        <option value="">5 unidades</option>
-        <option value="">6 unidades</option>
+      <select>
+        <option>1 unidad</option>
+        <option>2 unidades</option>
+        <option>3 unidades</option>
+        <option>4 unidades</option>
+        <option>5 unidades</option>
+        <option>6 unidades</option>
       </select>
       <span className="text-sm text-neutral-400"> (36 disponibles)</span>
     </div>
@@ -39,7 +39,7 @@ const Seller = () => {
 };
 const Benefits = () => {
   return (
-    <div className="space-y-4 mt-6" id="benefits">
+    <div className="space-y-4 mt-6">
       <div className="flex flex-row">
         <div className="">↩️</div>
         <div className="text-sm">

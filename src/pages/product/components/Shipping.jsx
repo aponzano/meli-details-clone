@@ -1,6 +1,6 @@
 export const Shipping = () => {
   return (
-    <div className="flex flex-col items-start mb-3" id="shipping">
+    <div className="flex flex-col items-start mb-3">
       <p className="pb-0.5">
         Llega el martes por{" "}
         <span className="inline-flex">

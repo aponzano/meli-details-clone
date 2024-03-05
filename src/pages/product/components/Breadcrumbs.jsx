@@ -2,7 +2,7 @@ export const Breadcrumbs = () => {
   return (
     <div className="mb-3">
       <div className="flex flex-row">
-        <div className="h-5 mb-3 mt-4 overflow-hidden w-[900px] breadcrumb">
+        <div className="h-5 mb-3 mt-4 w-[900px] breadcrumb">
           <ul className="text-sm">
             <li className="inline font-semibold">También puede interesarte: </li>
             <li className="inline">interés 1</li>

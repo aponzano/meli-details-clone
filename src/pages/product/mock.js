@@ -1,4 +1,4 @@
-export const product = {
+export const productData = {
   id: "MLA1641121748",
   site_id: "MLA",
   title: "Esferas Del Dragón Caja De 7 Esferas De Dragon Ball Z ",
@@ -161,6 +161,8 @@ export const product = {
         },
       ],
       value_type: "string",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "ACTION_FIGURE_NUMBER",
@@ -175,6 +177,8 @@ export const product = {
         },
       ],
       value_type: "number",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "BRAND",
@@ -189,6 +193,7 @@ export const product = {
         },
       ],
       value_type: "string",
+      attribute_group_name: "Características principales",
     },
     {
       id: "CELL_BATTERY_SIZE",
@@ -203,6 +208,7 @@ export const product = {
         },
       ],
       value_type: "string",
+      attribute_group_name: "Otros",
     },
     {
       id: "CHARACTER",
@@ -217,6 +223,7 @@ export const product = {
         },
       ],
       value_type: "string",
+      attribute_group_name: "Características principales",
     },
     {
       id: "COLLECTION",
@@ -231,6 +238,7 @@ export const product = {
         },
       ],
       value_type: "string",
+      attribute_group_name: "Características principales",
     },
     {
       id: "DEPTH",
@@ -248,6 +256,7 @@ export const product = {
         },
       ],
       value_type: "number_unit",
+      attribute_group_name: "Otros",
     },
     {
       id: "GTIN",
@@ -279,6 +288,8 @@ export const product = {
         },
       ],
       value_type: "number_unit",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "INCLUDES_ACCESSORIES",
@@ -293,6 +304,8 @@ export const product = {
         },
       ],
       value_type: "boolean",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "INCLUDES_CELL_BATTERIES",
@@ -307,6 +320,8 @@ export const product = {
         },
       ],
       value_type: "boolean",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "IS_BOBBLEHEAD",
@@ -321,6 +336,8 @@ export const product = {
         },
       ],
       value_type: "boolean",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "IS_COLLECTIBLE",
@@ -335,6 +352,8 @@ export const product = {
         },
       ],
       value_type: "boolean",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "ITEM_CONDITION",
@@ -363,6 +382,7 @@ export const product = {
         },
       ],
       value_type: "string",
+      attribute_group_name: "Características principales",
     },
     {
       id: "MATERIALS",
@@ -377,6 +397,8 @@ export const product = {
         },
       ],
       value_type: "string",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "MIN_RECOMMENDED_AGE",
@@ -394,6 +416,8 @@ export const product = {
         },
       ],
       value_type: "number_unit",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "SELLER_SKU",
@@ -404,20 +428,6 @@ export const product = {
         {
           id: null,
           name: "chica3,5",
-          struct: null,
-        },
-      ],
-      value_type: "string",
-    },
-    {
-      id: "TOY_SAFETY_CERTIFICATE_NUMBER",
-      name: "Número de certificado de seguridad del juguete",
-      value_id: "20080800",
-      value_name: "1",
-      values: [
-        {
-          id: "20080800",
-          name: "1",
           struct: null,
         },
       ],
@@ -439,6 +449,8 @@ export const product = {
         },
       ],
       value_type: "number_unit",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "WIDTH",
@@ -456,6 +468,8 @@ export const product = {
         },
       ],
       value_type: "number_unit",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "WITH_LIGHTS",
@@ -470,6 +484,8 @@ export const product = {
         },
       ],
       value_type: "boolean",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "WITH_REMOTE_CONTROL",
@@ -484,6 +500,8 @@ export const product = {
         },
       ],
       value_type: "boolean",
+
+      attribute_group_name: "Otros",
     },
     {
       id: "WITH_SOUND",
@@ -498,6 +516,8 @@ export const product = {
         },
       ],
       value_type: "boolean",
+
+      attribute_group_name: "Otros",
     },
   ],
   listing_source: "",
