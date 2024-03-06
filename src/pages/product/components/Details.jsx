@@ -1,19 +1,22 @@
 import {productData} from "../mock";
 
+import {Gallery} from "./Gallery";
+import {Information} from "./Information";
 import {Sidebar} from "./Sidebar";
 import {Specifications} from "./Specifications";
-
 export const Details = () => {
   return (
     <>
-      <div className="flex flex-row pb-10">
+      <div className="flex flex-row">
         <div className="flex-grow-[3] pb-10">
-          <div className="" id="carousel">
-            <h3>Carousel</h3>
+          <div className="flex">
+            <Gallery images={productData.pictures} title={productData.title} />
+            <Information price={productData.price} title={productData.title} />
           </div>
           <hr className="my-10 mx-5" />
 
           <div className="" id="recommendations">
+            <h3>Quienes vieron este producto también compraron</h3>
             <h3>Productos del vendedor</h3>
           </div>
           <hr className="my-10 mx-5" />

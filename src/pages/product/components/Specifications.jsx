@@ -11,7 +11,7 @@ const ItemTabla = ({name, value}) => {
 
 export const Specifications = ({attributes}) => {
   return (
-    <div className="px-11">
+    <div className="px-11" id="specifications">
       <h2 className="text-2xl leading-tight">Características del producto</h2>
       <div className="mt-4">
         <div className="grid grid-flow-col auto-cols-auto gap-10 pt-5">
