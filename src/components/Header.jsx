@@ -1,7 +1,14 @@
 import {Link} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 import mercadoLogo from "../assets/evil-logo.png";
+
 export const Header = () => {
+  const navigate = useNavigate();
+  const handleSubmit = (term) => {
+    navigate("/" + term);
+  };
+
   return (
     <header className="bg-yellow-300 flex h-[100px] justify-center">
       <div className="grid grid-cols-[162px_minmax(340px,_580px)_minmax(350px,_390px)] grid-rows-[40px_28px] pt-2 pb-3 px-2.5 gap-x-6 gap-y-3">
@@ -24,6 +31,12 @@ export const Header = () => {
             className="block w-full rounded-sm py-2 pl-3 text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm sm:leading-6 shadow-sm"
             placeholder="Buscar productos, marcas y más..."
             type="text"
+            onKeyDown={(event) => {
+              if (event.key === "Enter") {
+                handleSubmit(event.currentTarget.value);
+                event.currentTarget.value = "";
+              }
+            }}
           />
         </div>
         {/* Blank Space */}
