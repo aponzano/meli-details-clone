@@ -3,11 +3,12 @@ import {Details} from "./components/Details";
 import {Reviews} from "./components/Reviews";
 import {QnA} from "./components/QnA";
 import {Ratings} from "./components/Ratings";
+
 export const Product = () => {
   return (
     <div className="mx-auto max-w-6xl">
       <Breadcrumbs />
-      <div className="card min-w-[800px] mb-6">
+      <div className="card min-w-[800px] mb-6 pb-10">
         <Details />
         <hr className="pb-10" />
         <div className="" id="similar-products">

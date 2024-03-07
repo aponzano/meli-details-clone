@@ -8,7 +8,13 @@ export const StarRating = ({rate = 0, classes = ""}) => {
       {[...Array(5)].map((star, _index) => {
         let number = _index + 0.5;
 
-        return rate >= _index + 1 ? <FullStar /> : rate >= number ? <HalfStar /> : <EmptyStar />;
+        return rate >= _index + 1 ? (
+          <FullStar key={_index} />
+        ) : rate >= number ? (
+          <HalfStar key={_index} />
+        ) : (
+          <EmptyStar key={_index} />
+        );
       })}
     </div>
   );
