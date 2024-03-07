@@ -536,3 +536,135 @@ export const productData = {
   health: null,
   catalog_listing: true,
 };
+
+export const questionsData = [
+  {
+    date_created: "2024-03-03T10:47:02.075-04:00",
+    status: "ANSWERED",
+    text: "Buenos dias, consulta podrian hacer una nota para que la otra persona lo reciba, es para un regalo",
+    id: 12993451818,
+    answer: {
+      text: "Si Claro, envianos un mensaje una vez hecha la compra",
+      status: "ACTIVE",
+      date_created: "2024-03-03T11:16:19.291-04:00",
+    },
+  },
+  {
+    date_created: "2024-02-15T06:06:54.905-04:00",
+    status: "ANSWERED",
+    text: "hola buen día!!! Contiene las 7 esferas o solo 1 ? Gracias !!!",
+    id: 12978388308,
+    answer: {
+      text: "Hola, las 7",
+      status: "ACTIVE",
+      date_created: "2024-02-15T09:23:26.040-04:00",
+    },
+  },
+  {
+    date_created: "2024-02-13T16:58:01.274-04:00",
+    status: "ANSWERED",
+    text: "Si si me figura jueves o viernes",
+    id: 12977096064,
+    answer: {
+      text: "Entonces, para esas fechas",
+      status: "ACTIVE",
+      date_created: "2024-02-13T17:33:13.195-04:00",
+    },
+  },
+  {
+    date_created: "2024-02-13T16:53:48.142-04:00",
+    status: "ANSWERED",
+    text: "Soy de campana",
+    id: 12977093696,
+    answer: {
+      text: "Fíjate en la publicación te dice cuanto tarda en llegar",
+      status: "ACTIVE",
+      date_created: "2024-02-13T16:56:41.116-04:00",
+    },
+  },
+  {
+    date_created: "2024-02-13T16:13:32.118-04:00",
+    status: "ANSWERED",
+    text: "Hola hay chance que lleguen mañana por la tarde?",
+    id: 12977060942,
+    answer: {
+      text: "Hola, si elegís moto en caba o una si",
+      status: "ACTIVE",
+      date_created: "2024-02-13T16:43:26.859-04:00",
+    },
+  },
+  {
+    date_created: "2024-02-09T09:58:47.046-04:00",
+    status: "ANSWERED",
+    text: "Hola! Si compro puedo retirar gratis por Capital Federal barrio San Nicolas dice. Es así?? Sería cerca del obelisco? Gracias",
+    id: 12973963520,
+    answer: {
+      text: "exactamente, de 10 a 16hs, saludos Gustavo Besidearg",
+      status: "ACTIVE",
+      date_created: "2024-02-09T10:25:35.933-04:00",
+    },
+  },
+  {
+    date_created: "2024-02-05T09:37:17.414-04:00",
+    status: "ANSWERED",
+    text: "Son de plástico?",
+    id: 12969479561,
+    answer: {
+      text: "Hola, son de cristal",
+      status: "ACTIVE",
+      date_created: "2024-02-05T09:44:22.779-04:00",
+    },
+  },
+];
+
+export const reviewsData = [
+  {
+    id: 1,
+    text: "Mi hijo contento con sus esferas. Chiquitas pero muy lindas.",
+    rate: 5,
+    likes: 4,
+    date_created: "03 oct. 2023",
+  },
+  {
+    id: 2,
+    text: "Buenísimo de muy buena calidad.",
+    rate: 5,
+    likes: 2,
+    date_created: "26 dic. 2023",
+  },
+  {
+    id: 3,
+    text: "Todo perfecto.",
+    rate: 5,
+    likes: 0,
+    date_created: "20 feb. 2024",
+  },
+  {
+    id: 4,
+    text: "Recomendable",
+    rate: 5,
+    likes: 0,
+    date_created: "14 ene. 2024",
+  },
+  {
+    id: 5,
+    text: "Muy lindas y el estuche hermoso.",
+    rate: 5,
+    likes: 0,
+    date_created: "08 ene. 2024",
+  },
+  {
+    id: 6,
+    text: "Muy lindas las esferas del dragón, a mí hijo le encantaron.",
+    rate: 5,
+    likes: 0,
+    date_created: "04 ene. 2024",
+  },
+  {
+    id: 7,
+    text: "Todo perfecto! 100 % recomendable.",
+    rate: 5,
+    likes: 0,
+    date_created: "21 dic. 2023",
+  },
+];

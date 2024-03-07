@@ -1,3 +1,4 @@
+import {StarRating} from "../../../components/StarRating";
 export const Information = ({title, price}) => {
   return (
     <div className="max-w-[352px] flex-grow mr-8 font-light ">
@@ -6,10 +7,10 @@ export const Information = ({title, price}) => {
         <div className="w-full">
           <div className="mb-2 mr-10 text-sm text-neutral-500">Nuevo | +500 vendidos</div>
           <h1 className="text-xl mb-2 font-semibold leading-tight">{title}</h1>
-          <div className="flex items-center space-x-2">
-            <span className="text-sm inline-block leading-none">4.6</span>
-            <span className="text-blue-500 leading-none">★★★★☆</span>
-            <span className="text-sm text-neutral-500">(60)</span>
+          <div className="flex items-center space-x-2 ">
+            <span className="text-sm inline-block leading-none relative top-0.5">4.6</span>
+            <StarRating classes={"h-4 space-x-0.5 "} rate={4.6} />
+            <span className="text-sm text-neutral-500 relative">(60)</span>
           </div>
         </div>
       </div>

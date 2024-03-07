@@ -8,7 +8,7 @@ Debemos crear un clon de [la página de detalle de producto](https://www.mercado
 ## Definición funcional
 Debemos intentar llegar a un resultado visual lo más aproximado posible, siendo los siguientes los elementos requeridos.
 
-* Carousel que cambia de imágen al clickear (no en hover).
+* Carousel que cambia de imagen al clickear (no en hover).
 * Area de detalle del producto (condición, cantidad vendida, título, precio).
 * Botones de `Comprar ahora` y `Agregar al carrito`.
 * Sección de preguntas y respuestas.
@@ -20,7 +20,7 @@ El resto de los elementos son opcionales pero altamente recomendados.
 * El código de la aplicación debe estar subida a un repositorio de público acceso.
 
 ## Puntos extra
-* Poder agregar comentarios (no deben guardarse en ningun lado)
+* Poder agregar comentarios (no deben guardarse en ningún lado)
 * Poder puntuar opiniones
 * Poder ver opiniones por tipo
 * Modo oscuro

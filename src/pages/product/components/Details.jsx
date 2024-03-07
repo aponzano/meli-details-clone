@@ -13,16 +13,16 @@ export const Details = () => {
             <Gallery images={productData.pictures} title={productData.title} />
             <Information price={productData.price} title={productData.title} />
           </div>
-          <hr className="my-10 mx-5" />
+          <hr className="my-10 mx-10" />
 
           <div className="" id="recommendations">
             <h3>Quienes vieron este producto también compraron</h3>
             <h3>Productos del vendedor</h3>
           </div>
-          <hr className="my-10 mx-5" />
+          <hr className="my-10 mx-11" />
 
           <Specifications attributes={productData.attributes} />
-          <hr className="my-10 mx-5" />
+          <hr className="my-10 mx-11" />
 
           <div className="px-11">
             <h2 className="text-2xl pb-6 leading-tight">Descripción</h2>
