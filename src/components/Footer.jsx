@@ -2,7 +2,7 @@ export const Footer = () => {
   return (
     <>
       <div className="block relative text-sm ">
-        <button className="border border-b-0 text-neutral-500 bg-neutral-100 py-0 px-5 h-8 absolute left-1/2 bottom-full flex flex-row leading-8 ">
+        <button className="border border-b-0 text-neutral-500 bg-neutral-100 py-0 px-5 h-8 absolute left-1/2 transform -translate-x-1/2 bottom-full flex flex-row leading-8 ">
           Más información
         </button>
         <div className="max-h[270px] bg-neutral-100 relative overflow-hidden border-t mt-16">
